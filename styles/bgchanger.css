@@ -12,15 +12,15 @@ body {
 
 button {
     padding: 50px;
-    border: none;
+    border: 5px solid rgb(19, 19, 19);
 }
 
 button:hover {
     opacity: 0.7;
 }
 
-button:focus {
-    border: 5px solid black;
+.white {
+    background: white;
 }
 
 .red {
