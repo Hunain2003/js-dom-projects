@@ -3,3 +3,10 @@ body {
     font-family: Arial;
 }
 
+.clock {
+    padding: 5px;
+    background: rgb(255, 102, 0);
+    color: white;
+    margin: 0 auto;
+    width: fit-content;
+}
