@@ -4,9 +4,25 @@ body {
 }
 
 input {
-    margin-bottom: 2px;
+    margin-bottom: 10px;
+    border: 1px solid black;
 }
 
 button {
     margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background: rgb(165, 165, 165);
+    padding: 2%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+
+#bmi-form {
+    background: rgb(73, 73, 73);
+    width: fit-content;
+    padding: 2%;
+    color: white;
+    border-radius: 1%;
+    margin: 0 auto;
 }
