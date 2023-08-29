@@ -1,0 +1,28 @@
+button {
+    padding: 50px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
+
+.purple {
+    background: purple;
+}
+
+.blue {
+    background: blue;
+}
