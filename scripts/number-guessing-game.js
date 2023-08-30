@@ -1,0 +1,1 @@
+let randomNum = Math.random();
