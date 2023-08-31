@@ -12,6 +12,7 @@ function generateNum() {
 function checkGuess() {
     let guess = Number(document.querySelector('#guess').value);
     let message = document.querySelector('#message');
+    let chances = document.querySelector('#left-count');
 
     if (!guess) {
         message.innerText = "Please only enter a number in guess";
@@ -23,6 +24,7 @@ function checkGuess() {
         if (ORIGINAL_NUMBER - guess) {
             message.innerText = "Very nice guess. You are too close. Try again!";
             message.style.color = 'blue';
+            chances.innerText = Number(chances.innerText--);
         }
     }
 }
