@@ -9,8 +9,20 @@
 </head>
 <body>
     <h1>Number guessing game</h1>
-    <p>Guedss the</p>
-    
+    <p>Select the number range</p>
+
+    <label for="min">Minimum Value</label>
+    <input type="number" id="min" />
+    <label for="Maximum">Maximum</label>
+    <input type="number" id="max" />
+    <button>Generate Random Number</button>
+
+    <div class="guess-area">
+        <p id="chances-message">You have <span id="left-count">5</span> left to chance(s) to guess</p>
+        <input type="number" id="guess" />
+        <button>Check guess</button>
+    </div>
+
     <script src="./../scripts/number-guessing-game.js"></script>
 </body>
 </html>
