@@ -15,12 +15,13 @@
     <input type="number" id="min" />
     <label for="Maximum">Maximum</label>
     <input type="number" id="max" />
-    <button>Generate Random Number</button>
+    <button onclick="generateNum()">Generate Random Number</button>
 
     <div class="guess-area">
         <p id="chances-message">You have <span id="left-count">5</span> left to chance(s) to guess</p>
+        <p id="message"></p>
         <input type="number" id="guess" />
-        <button>Check guess</button>
+        <button onclick="checkGuess()">Check guess</button>
     </div>
 
     <script src="./../scripts/number-guessing-game.js"></script>
