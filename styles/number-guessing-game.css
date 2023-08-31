@@ -6,3 +6,7 @@ body {
 .guess-area {
     display: none;
 }
+
+.left-count {
+    color: grey;
+}
