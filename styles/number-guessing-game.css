@@ -14,3 +14,7 @@ body {
 .error {
     color: red;
 }
+
+#tryAnother {
+    display: none;
+}
